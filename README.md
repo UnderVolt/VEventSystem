@@ -28,9 +28,11 @@ public class TestEvent extends VEvent {
 ```
 Create a Listener
 ```
-import me.kiritodv.event.interfaces.*
+import io.undervolt.api.event.VHandler;
+import io.undervolt.api.event.VListener;
+import io.undervolt.api.event.VPriority;
 
-public class TestListener implements EListener{
+public class TestEventListener implements VListener{
     
     //You can use LOW, NORMAL, HIGH, HIGHEST, MONITOR
     
